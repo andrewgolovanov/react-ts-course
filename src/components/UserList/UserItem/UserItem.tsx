@@ -14,10 +14,7 @@ const UserItem: FC<UserItemProps> = ({
 }) => {
   return (
     <div>
-      <div>{id}.</div>
-      <div>{name}</div>
-      <div>{city}</div>
-      <div>{street}</div>
+      {id}. {name} {city} {street}
     </div>
   );
 };
